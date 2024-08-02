@@ -1,0 +1,48 @@
+/* Success.css */
+
+/* Container for the success message */
+.payment-success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    padding: 20px;
+  }
+  
+  .payment-success-message {
+    text-align: center;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-success-message h1 {
+    font-size: 2.5rem;
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  .payment-success-message p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .back-to-shop {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-to-shop:hover {
+    background-color: #0056b3;
+  }
+  

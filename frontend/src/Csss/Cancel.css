@@ -1,0 +1,43 @@
+/* Cancel.css */
+
+/* Container for the cancel message */
+.cancel-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff4f4;
+    padding: 20px;
+  }
+  
+  .cancel-page h1 {
+    font-size: 2.5rem;
+    color: #dc3545;
+    margin-bottom: 20px;
+  }
+  
+  .cancel-page p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .dashboard-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .dashboard-link:hover {
+    background-color: #0056b3;
+  }
+  
